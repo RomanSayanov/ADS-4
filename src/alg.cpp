@@ -10,7 +10,6 @@ int countPairs1(int *arr, int len, int value) {
             }
         }
     }
-    cout << count << endl;
     return count;
 }
 int countPairs2(int *arr, int len, int value) {
@@ -22,7 +21,6 @@ int countPairs2(int *arr, int len, int value) {
             }
         }
     }
-    cout << count << endl;
     return count;
 }
 int countPairs3(int *arr, int len, int value) {
@@ -43,6 +41,5 @@ int countPairs3(int *arr, int len, int value) {
             j++;
         }
     }
-    cout << count << endl;
     return count;
 }
